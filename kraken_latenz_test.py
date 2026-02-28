@@ -67,7 +67,7 @@ async def measure_websocket_latency():
     return measurements
 
 
-# --Binance Latenz Messung--
+# --Kraken Latenz Messung--
 def measure_rest_latency():
     measurements = []
     
