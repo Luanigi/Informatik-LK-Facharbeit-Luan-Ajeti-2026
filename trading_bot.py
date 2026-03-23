@@ -126,9 +126,9 @@ while True:
                     type=ORDER_TYPE_MARKET,
                     quantity=quantitaet
                 )
-                kauf_preis    = binance_preis
-                kauf_zeit     = time.time()
-                kauf_order_id = order.get('orderId')
+                kauf_preis     = binance_preis
+                kauf_zeit      = time.time()
+                kauf_order_id  = order.get('orderId')
                 position_offen = True
                 handel_protokollieren('BUY', kauf_id=kauf_order_id)
                 print("Kauf platziert:", order)
